@@ -1,7 +1,7 @@
-# react-swipe-card
+# eggnita-react-swipe-card
 Tinder style swipe cards
 
-[![npm](https://img.shields.io/npm/v/react-swipe-card.svg?style=flat-square)](https://www.npmjs.com/package/react-swipe-card)
+[![npm](https://img.shields.io/npm/v/eggnita-react-swipe-card.svg?style=flat-square)](https://www.npmjs.com/package/eggnita-react-swipe-card)
 
  - [Usage](#usage)
  - [Demo](#demo)
@@ -14,7 +14,7 @@ Tinder style swipe cards
 Install
 
 ```bash
- $ npm install react-swipe-deck -save
+ $ npm install eggnita-react-swipe-deck -save
 ```
 
 
@@ -25,7 +25,7 @@ Install
 ## Code
 
 ```javascript
-import Cards, { Card } from 'react-swipe-card'
+import Cards, { Card } from 'eggnita-react-swipe-card'
 
 
 const data = ['Alexandre', 'Thomas', 'Lucien']
@@ -74,3 +74,5 @@ Props:
 ## Thanks
 
 [alexandre-garrec/react-swipe-card](https://github.com/alexandre-garrec/react-swipe-card)
+
+[swapkats/react-swipe-deck](https://github.com/swapkats/react-swipe-deck)
