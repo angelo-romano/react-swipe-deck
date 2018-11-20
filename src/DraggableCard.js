@@ -53,10 +53,10 @@ class DraggableCard extends Component {
 
     const getDirection = () => {
       switch (true) {
-        case (this.state.x < -50): return 'Left'
-        case (this.state.x + (card.offsetWidth - 50) > screen.x): return 'Right'
+        case (this.state.x < -10): return 'Left'
+        case (this.state.x > 10 ): return 'Right'
         case (this.state.y < -50): return 'Top'
-        case (this.state.y + (card.offsetHeight - 50) > screen.y): return 'Bottom'
+        case (this.state.y > 50): return 'Bottom'
         default: return false
       }
     }
